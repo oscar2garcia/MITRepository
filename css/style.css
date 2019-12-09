@@ -1,0 +1,216 @@
+body {
+	font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+	font-size: 30px;
+	font-size: 3rem;
+	text-align: center;
+	background: #fff;
+	width: 1280px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.slide {
+	margin: 0 auto;
+	width: 100%;
+	height: 40rem;
+	background: white;
+}
+textarea{
+	resize: none;
+	height: 100px;
+}
+
+.logos{
+	height: 180px;
+}
+
+.main-text{
+	color: #616364;
+	font-size: 50px;
+	text-align: center;
+	line-height: 60px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+
+.subtitle{
+	color: #616364;
+	font-size: 55px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.submenu{
+	color: white;
+	height: 500px;
+	position: relative;
+}
+.submenu:nth-child(1){ background: #ef562c;}
+.submenu:nth-child(2){ background: #f16840;}
+.submenu:nth-child(3){ background: #f27450;}
+.submenu:nth-child(4){ background: #f58f72;}
+
+.imagen_submenu{
+	margin-top: 180px;
+}
+
+.ver_mas{
+	font-size: 18px;
+	font-weight: normal;
+	position: absolute;
+	bottom: 0;
+	right: 20px;
+}
+	.ver_mas:hover {cursor: pointer;}
+
+.regresar{
+	font-size: 18px;
+	font-weight: normal;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+	.regresar:hover {cursor: pointer;}
+
+
+.relative {position: relative;}
+.absolute {position: absolute; width: 100%;}
+
+.expandido{
+	display: none;
+}
+	#expandido_universidad_empresarial p{
+		font-size: 40px;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 100;
+	}
+
+	#expandido_clinica p{
+		font-size: 32px;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 100;
+	}
+
+	#expandido_oficina p{
+		font-size: 32px;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 100;
+	}
+
+	#expandido_empresas p{
+		font-size: 32px;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 100;
+		margin-top: 100px;
+		padding: 50px;
+	}
+
+	.imagen_submenu_expandido{
+		margin-top: -35px;
+	}
+
+
+.proceso{
+	margin-top: 80px;
+}
+
+.proceso img{
+	width: 950px;
+}
+
+.contacto{
+	background: #a9a8a8;
+	color: white;
+	font-size: 20px;
+	margin-top: 30px;
+	width: 100%;
+	padding: 20px 0;
+}
+.contacto h3{
+	text-transform: uppercase;
+}
+
+p.align-left{
+	margin-left: 60px;
+	margin-top: 20px;
+	padding-top: 50px;
+}
+.align-left{
+	text-align: left;
+}
+
+input, textarea{
+	border: none!important;
+	border-radius: 10px!important;
+	width: 350px;
+}
+label{
+	text-transform: uppercase;
+	width: 95px!important;
+}
+
+#boton_enviar{
+	width: 100px;
+	border: 1px solid white!important;
+	text-transform: uppercase;
+	background: transparent;
+	color: white;
+	float: right;
+	margin-right: 85px;
+	border-radius: 10px!important;
+}
+
+.encuentranos{
+	background: #808284;
+	color: white;
+	width: 100%;
+}
+
+.encuentranos h2{
+	font-size: 24px;
+	font-weight: normal;
+	text-align: center;
+	color: white;
+	margin: 0;
+}
+
+.mapa iframe{
+	width: 100%;
+}
+
+footer{
+	background: #f05a2c;
+	color: white;
+	height: 180px;
+	display: block;
+	width: 100%;
+}
+
+footer p{
+	font-size: 20px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.logo_footer{
+	float: right;
+	margin-right: 30px;
+	margin-top: -80px;
+	width: 100px!important;
+}
+.clear{
+	clear: both;
+}
+
+iframe#errores{
+	display: block;
+	color: red!important;
+	height: 60px;
+	width: 315px;
+	border: none;
+	position: relative;
+	left: 60px;
+	top: 0px;
+}
+
